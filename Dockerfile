@@ -6,6 +6,6 @@ RUN apt-get update \
     && pip3 install sqlalchemy \
     && pip3 install psycopg2
 
-WORKDIR /hero-incentives
+WORKDIR /home/ubuntu/incentives
 
-CMD ["python3"]
+CMD ["python3 Heropayroll_Daily.py"]
